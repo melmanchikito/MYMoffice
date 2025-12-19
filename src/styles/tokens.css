@@ -1,0 +1,23 @@
+:root{
+  /* Colores */
+  --red-900:#8B1E1E;
+  --red-500:#E24B4B;
+  --white:#FFFFFF;
+  --gold-700:#B08D57;
+
+  /* Texto / fondos */
+  --text-900:#1C1C1C;
+  --text-600:#555;
+  --bg:#F4F5F7; /* 👈 gris claro elegante */
+
+  /* UI */
+  --radius:16px;
+  --shadow: 0 10px 30px rgba(0,0,0,.08);
+
+  /* Layout */
+  --container: 1120px;
+  --gap: 24px;
+
+  /* Tipografía */
+  --font: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}

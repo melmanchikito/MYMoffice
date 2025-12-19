@@ -1,0 +1,118 @@
+.header{
+  position: -webkit-sticky; /* Safari iOS viejo */
+  position: sticky;
+  top: 0;
+  z-index: 20;
+
+  background: rgba(13,13,13,0.92);              /* negro elegante */
+  border-bottom: 1px solid rgba(176,141,87,0.22);/* dorado sutil */
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+.header__row{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding: 14px 0;
+  gap: 18px;
+}
+
+.header__brand{
+  display:flex;
+  align-items:center;
+  gap: 12px;
+}
+
+.header__logo{
+  width: 40px;
+  height: 40px;
+  border-radius: 14px;
+  display:grid;
+  place-items:center;
+
+  background: linear-gradient(180deg, var(--red-900), #5f1010);
+  color: var(--white);
+  font-weight: 900;
+  border: 1px solid rgba(176,141,87,0.28);
+}
+
+.header__brandText{
+  display:flex;
+  flex-direction:column;
+  line-height:1.05;
+}
+
+.header__name{
+  color: rgba(255,255,255,0.95);
+  font-weight: 900;
+}
+.header__tag{
+  color: rgba(255,255,255,0.70);
+  font-weight: 700;
+  font-size: 13px;
+}
+
+/* Badge "Premium" */
+.badge{
+  background: rgba(176,141,87,0.14);
+  border: 1px solid rgba(176,141,87,0.42);
+  color: rgba(255,255,255,0.92);
+}
+
+/* Nav links */
+.header__nav{
+  display:flex;
+  gap: 18px;
+  font-weight: 800;
+  color: rgba(255,255,255,0.78);
+}
+
+.header__nav a{
+  position: relative;
+  padding: 8px 10px;
+  border-radius: 999px;
+  transition: .2s ease;
+}
+
+.header__nav a:hover{
+  color: rgba(255,255,255,0.95);
+  background: rgba(226,75,75,0.12); /* rojo suave */
+  border: 1px solid rgba(226,75,75,0.20);
+}
+
+/* Acciones */
+.header__actions{
+  display:flex;
+  gap: 10px;
+}
+
+/* Botón outline oscuro */
+.btn-outline{
+  background: rgba(255,255,255,0.04);
+  border-color: rgba(176,141,87,0.45);
+  color: rgba(255,255,255,0.92);
+}
+.btn-outline:hover{
+  background: rgba(176,141,87,0.14);
+  border-color: rgba(176,141,87,0.65);
+}
+
+/* Botón primary más “premium” */
+.btn-primary{
+  background: linear-gradient(180deg, var(--red-900), #651313);
+  color: var(--white);
+  border: 1px solid rgba(226,75,75,0.35);
+}
+.btn-primary:hover{
+  filter: brightness(1.05);
+}
+
+/* Mobile */
+@media (max-width: 900px){
+  .header__nav{ display:none; }
+}
+.header__tag{
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
