@@ -19,39 +19,46 @@
 }
 
 .header__brand{
-  display:flex;
-  align-items:center;
-  gap: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;            /* espacio justo entre logo y texto */
+  flex-shrink: 0;
 }
 
+/* Logo */
 .header__logo{
-  width: 40px;
-  height: 40px;
+  width: 180px;
+  height: 70px;
+
+  object-fit: cover;
+  object-position: left center;
+
   border-radius: 14px;
-  display:grid;
-  place-items:center;
-
-  background: linear-gradient(180deg, var(--red-900), #5f1010);
-  color: var(--white);
-  font-weight: 900;
-  border: 1px solid rgba(176,141,87,0.28);
+  display: block;
 }
 
+/* CONTENEDOR DE TEXTO (ESTO ES LO QUE FALTABA) */
 .header__brandText{
-  display:flex;
-  flex-direction:column;
-  line-height:1.05;
+  display: flex;        /* 👈 si esto no está, se oculta */
+  flex-direction: column;
+  line-height: 1;
+  white-space: nowrap; /* evita que se rompa */
 }
 
+/* Texto visible */
 .header__name{
-  color: rgba(255,255,255,0.95);
+  font-size: 18px;
   font-weight: 900;
+  color: rgba(255,255,255,0.95);
 }
+
 .header__tag{
-  color: rgba(255,255,255,0.70);
-  font-weight: 700;
-  font-size: 13px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: rgba(255,255,255,0.75);
 }
+
 
 /* Badge "Premium" */
 .badge{

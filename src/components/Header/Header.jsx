@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./Header.css";
+import logo from "../../assets/img/LOGO1.png";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,7 +20,8 @@ export default function Header() {
     <header className="header" id="top">
       <div className="container header__row">
         <a className="header__brand" href="#top" aria-label="Inicio" onClick={closeMenu}>
-          <span className="header__logo">M&M</span>
+          <img src={logo} alt="M&M Office"className="header__logo"/>
+
           <div className="header__brandText">
             <span className="header__name">M&M</span>
             <span className="header__tag">OFFICE</span>
