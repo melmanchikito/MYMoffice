@@ -1,5 +1,5 @@
 import Header from "./components/Header/Header";
-import Hero from "./components/Hero/Hero";
+import HeroVideo from "./components/Hero/HeroVideo";
 
 import Categories from "./components/Sections/Categories";
 import Featured from "./components/Sections/Featured";
@@ -13,8 +13,9 @@ export default function App() {
   return (
     <>
       <Header />
+
       <main id="top">
-        <Hero />
+        <HeroVideo />
         <Categories />
         <Featured />
         <Features />
@@ -22,6 +23,7 @@ export default function App() {
         <CTA />
         <Contact />
       </main>
+
       <Footer />
     </>
   );

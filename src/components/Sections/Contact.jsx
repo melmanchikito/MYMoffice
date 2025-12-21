@@ -10,7 +10,7 @@ export default function Contact() {
         <div className="contact">
           <div className="card">
             <h3 className="card__title">M&amp;M Muebles para Oficinas</h3>
-            <p className="card__text"><strong>WhatsApp:</strong> +593 9XXXXXXXX</p>
+            <p className="card__text"><strong>WhatsApp:</strong> +593 0998155563</p>
             <p className="card__text"><strong>Correo:</strong> ventas@mmoficinas.com</p>
             <p className="card__text"><strong>Ciudad:</strong> Ecuador</p>
 
