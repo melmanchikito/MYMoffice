@@ -216,3 +216,18 @@
   .burger{ display: inline-flex; }
   .header__btnHideOnMobile{ display: none; }
 }
+/* Tablets */
+@media (max-width: 1024px){
+  .header__logo{
+    width: 150px;
+    height: 60px;
+  }
+}
+
+/* Celulares */
+@media (max-width: 600px){
+  .header__logo{
+    width: 120px;
+    height: 50px;
+  }
+}
