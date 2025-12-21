@@ -11,7 +11,8 @@ export default function CTA() {
 
         <div className="cta__actions">
           <a className="btn btn-primary" href="#contacto">Ir a contacto</a>
-          <a className="btn btn-outline" href="#destacados">Ver destacados</a>
+          <a className="btn btn-cta-secondary" href="#destacados">Ver destacados</a>
+
         </div>
       </div>
     </section>

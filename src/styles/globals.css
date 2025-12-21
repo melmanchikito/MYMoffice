@@ -259,3 +259,54 @@ img { max-width: 100%; display: block; }
   .contact { grid-template-columns: 1fr; }
   .cta__box { flex-direction: column; align-items: flex-start; }
 }
+/* ===== Botón Contacto (alto contraste) ===== */
+.btn-contact{
+  background: linear-gradient(180deg, var(--red-900), #651313);
+  color: #fff;
+
+  border: 1px solid rgba(176,141,87,0.45); /* dorado */
+  border-radius: 999px;
+
+  font-weight: 900;
+  letter-spacing: 0.4px;
+
+  box-shadow:
+    0 10px 24px rgba(0,0,0,0.18),
+    0 0 0 4px rgba(176,141,87,0.12);
+
+  padding: 12px 22px;
+}
+
+.btn-contact:hover{
+  background: linear-gradient(180deg, #9c2424, #741818);
+  border-color: rgba(176,141,87,0.75);
+  box-shadow:
+    0 14px 30px rgba(0,0,0,0.22),
+    0 0 0 4px rgba(176,141,87,0.18);
+}
+/* ===== CTA: botón secundario dorado visible ===== */
+.btn-cta-secondary{
+  background: linear-gradient(180deg, var(--gold-700), #8f6f3f);
+  color: #ffffff;
+
+  border: 1px solid rgba(176,141,87,0.85);
+  border-radius: 999px;
+
+  font-weight: 900;
+  letter-spacing: 0.4px;
+
+  padding: 12px 22px;
+
+  box-shadow:
+    0 10px 24px rgba(0,0,0,0.16),
+    0 0 0 4px rgba(176,141,87,0.18);
+
+  transition: 0.2s ease;
+}
+
+.btn-cta-secondary:hover{
+  background: linear-gradient(180deg, #c19a60, #9a7746);
+  box-shadow:
+    0 14px 30px rgba(0,0,0,0.22),
+    0 0 0 4px rgba(176,141,87,0.25);
+}

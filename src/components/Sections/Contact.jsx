@@ -10,7 +10,7 @@ export default function Contact() {
         <div className="contact">
           <div className="card">
             <h3 className="card__title">M&amp;M Muebles para Oficinas</h3>
-            <p className="card__text"><strong>WhatsApp:</strong> +593 0998155563</p>
+            <p className="card__text"><strong>WhatsApp:</strong> +593 0986733642</p>
             <p className="card__text"><strong>Correo:</strong> ventas@mmoficinas.com</p>
             <p className="card__text"><strong>Ciudad:</strong> Ecuador</p>
 
@@ -42,7 +42,8 @@ export default function Contact() {
               <textarea className="input" rows="4" placeholder="¿Qué necesitas cotizar?" required />
             </label>
 
-            <button className="btn btn-outline" type="submit">Enviar</button>
+            <button className="btn btn-contact" type="submit">Enviar mensaje</button>
+
             <p className="hint">*Este formulario es demo (luego lo conectamos).</p>
           </form>
         </div>
