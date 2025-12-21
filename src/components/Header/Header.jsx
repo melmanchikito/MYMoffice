@@ -76,9 +76,7 @@ export default function Header() {
             <a className="btn btn-outline" href="#contacto" onClick={closeMenu}>
               Contactar
             </a>
-            <a className="btn btn-primary" href="#cotizar" onClick={closeMenu}>
-              Cotizar
-            </a>
+            
           </div>
         </div>
       </div>
