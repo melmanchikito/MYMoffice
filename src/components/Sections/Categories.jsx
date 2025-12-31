@@ -4,6 +4,8 @@ export default function Categories() {
     { title: "Escritorios", desc: "Diseños modernos, resistentes y funcionales." },
     { title: "Estaciones de Trabajo", desc: "Optimiza espacios para equipos completos." },
     { title: "Archivadores", desc: "Organización premium para tu oficina." },
+    { title: "Anaqueles", desc: "Calidad premium para tu oficina." },
+    { title: "Retapizados", desc: "Retapizados de alta calidad para renovar tus muebles." },
   ];
 
   return (
