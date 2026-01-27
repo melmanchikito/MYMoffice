@@ -3,6 +3,7 @@ export default function Testimonials() {
     { name: "Andrea P.", text: "Compramos estaciones de trabajo y quedaron perfectas. Excelente atención." },
     { name: "Carlos M.", text: "La silla ejecutiva es otra cosa… comodidad real para todo el día." },
     { name: "María L.", text: "Entrega rápida y asesoría clara. Recomendados." },
+    { name: "Adamgard", text: "Excelente calidad y servicio. Muy satisfecho con mi compra." },
   ];
 
   return (
